@@ -9,8 +9,8 @@ use ieee.std_logic_1164.all;
 entity mux16x4 is
 	port (
 		 I0, I1, I2, I3 		: in std_logic_vector (3 downto 0);
-		 Q 						: out std_logic_vector(3 downto 0);
-		 sel 					: in std_logic_vector (1 downto 0)
+		 Q 				: out std_logic_vector(3 downto 0);
+		 sel 				: in std_logic_vector (1 downto 0)
 	);
 end mux16x4;
 
