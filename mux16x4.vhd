@@ -21,19 +21,4 @@ begin
 	Q <= I2 when sel = "10";
 	Q <= I3 when sel  = "11";
 
-	--if (sel = "00") then
-	--	Q <= I0;
-	--end if;
-
-	--if (sel ="01") then
-	--	Q <= I1;
-	--end if;
-
-	--if (sel = "10") then
-	--	Q <= I2;
-	--end if;
-
-	--if (sel = "11") then
-	--	Q <= I3;
-	--end if;
 end mux;
