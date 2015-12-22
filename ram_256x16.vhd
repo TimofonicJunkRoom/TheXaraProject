@@ -7,9 +7,9 @@ ENTITY ram_256x16 IS
 	(
 		data			: IN  std_logic_vector(15 DOWNTO 0);
 		address			: IN  std_logic_vector(7 DOWNTO 0);
-		we				: IN  std_logic;
-		cs				: IN  std_logic;
-		q				: OUT std_logic_vector(15 DOWNTO 0)
+		we			: IN  std_logic;
+		cs			: IN  std_logic;
+		q			: OUT std_logic_vector(15 DOWNTO 0)
 	);
 END ram_256x16;
 
